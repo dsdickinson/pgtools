@@ -1,0 +1,39 @@
+README for pgtools
+
+The pgtools project is a collection of perl tools written to help obtain
+information about various entities of a PostgreSQL server database via
+the command line. It includes individual programs that perform seperate tasks. 
+
+
+ABOUT
+The following tools are included in this package:
+
+ pgcol: displays all tables of a specific database that contain a specific column.
+
+pgcomm: queries a column's comment field to display the purpose of the column.
+
+pglist: looks up the last modification time of a PostgreSQL database and a respective table.
+
+ pgoid: looks up the oid for a PostgreSQL database or table.
+
+ pgtab: displays specific and often accessed pre-configured tables.
+
+
+
+REQUIREMENTS
+Perl 5.0.8 or up
+
+
+CONFIGURATION
+Each program included in this package has various configuration
+sections that will need to be configured. They are identified
+in each program.
+
+
+INSTALLATION
+see INSTALL file
+
+
+TODO    - see TODO file
+AUTHORS - see AUTHORS file
+LICENSE - see LICENSE file
