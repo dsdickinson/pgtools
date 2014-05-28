@@ -8,15 +8,15 @@ the command line. It includes individual programs that perform seperate tasks.
 ABOUT
 The following tools are included in this package:
 
- pgcol: displays all tables of a specific database that contain a specific column.
+ pgcol.pl: displays all tables of a specific database that contain a specific column.
 
-pgcomm: queries a column's comment field to display the purpose of the column.
+pgcomm.pl: queries a column's comment field to display the purpose of the column.
 
-pglist: looks up the last modification time of a PostgreSQL database and a respective table.
+pglist.pl: looks up the last modification time of a PostgreSQL database and a respective table.
 
- pgoid: looks up the oid for a PostgreSQL database or table.
+ pgoid.pl: looks up the oid for a PostgreSQL database or table.
 
- pgtab: displays specific and often accessed pre-configured tables.
+ pgtab.pl: displays specific and often accessed pre-configured tables.
 
 
 
