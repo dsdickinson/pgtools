@@ -144,7 +144,7 @@ if (defined($opts{t})) {
 	$arg_table = $opts{t};
 	$arg_table = sanitize($arg_table);
 	if (! defined($tables->{$arg_table})) {
-		print "\nError: Table '$arg_table not defined!\n\n";
+		print "\nError: Table '$arg_table' not defined!\n\n";
 		exit(1);
 	}
 } else {
@@ -153,7 +153,7 @@ if (defined($opts{t})) {
 		$arg_table = $ARGV[0];
 	} else {
 		print "\nError: Incorrect number of arguments specified!\n\n";
-		exit(1);
+		HELP_MESSAGE();
 	}
 }	
 $fields = $tables->{$arg_table};
