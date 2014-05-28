@@ -77,11 +77,17 @@ sub VERSION_MESSAGE {
 
 sub HELP_MESSAGE {
 my $usage = <<END;
-usage: $prog [OPTIONS]
+NAME
+pgtab - Displays PostgreSQL table structures of specific user configurable table names.
 
-This program displays specific and often accessed pre-configured tables.
+SYNOPSIS
+    pgtab -i OR -d [database_name] -t [table_name] 
 
-Options:
+DESCRIPTION
+    This program displays table structures of specific user configurable table names.
+
+    The following options are available:
+
     -d [database]       Database name.
 
     -h                  Usage

@@ -69,11 +69,18 @@ sub VERSION_MESSAGE {
 
 sub HELP_MESSAGE {
 my $usage = <<END;
-usage: $prog [OPTIONS]
+NAME
+pgcol - Display PostgreSQL tables and views that refer to a specific column
 
-This program displays specific and often accessed tables.
+SYNOPSIS
+    pgcol -d [database_name] -c [column_name]
 
-Options:
+DESCRIPTION
+    This program displays all tables and views of a specific database that 
+    refer to a specific column.
+
+    The following options are available:
+
     -c [column]         Column name.
 
     -d [database]       Database name.
